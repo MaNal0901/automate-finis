@@ -2,6 +2,46 @@
 
 Une application web interactive pour la manipulation et l'analyse des automates finis, développée avec Streamlit.
 
+## 📋 Contexte du Projet
+
+Dans le cadre du module "Mathématiques pour Ingénieurs", nous avons réalisé ce projet qui a été encadré par :
+- Pr. LAZAIZ
+- Pr. KAMOUSS
+
+## 🙏 Remerciements
+
+Nous tenons à exprimer notre profonde gratitude envers nos professeurs encadrants :
+
+### Pr. LAZAIZ
+Pour son expertise précieuse dans le domaine des mathématiques pour l'ingénieur et ses conseils avisés qui ont grandement contribué à la réussite de ce projet. Sa passion pour l'enseignement et sa capacité à transmettre des concepts complexes de manière claire ont été une source d'inspiration constante.
+
+### Pr. KAMOUSS
+Pour son encadrement rigoureux et son soutien continu tout au long du projet. Ses retours constructifs et son expertise technique ont été déterminants dans l'amélioration de notre travail.
+
+## 🎯 Importance du Projet
+
+Ce projet revêt une importance particulière pour plusieurs raisons :
+
+1. **Application Pratique des Connaissances Théoriques**
+   - Mise en pratique concrète des concepts mathématiques
+   - Développement d'une solution logicielle complète
+   - Expérience hands-on avec les automates finis
+
+2. **Développement de Compétences Professionnelles**
+   - Travail en équipe et gestion de projet
+   - Résolution de problèmes complexes
+   - Documentation et présentation technique
+
+3. **Innovation et Créativité**
+   - Conception d'une interface utilisateur intuitive
+   - Implémentation d'algorithmes sophistiqués
+   - Développement de fonctionnalités avancées
+
+4. **Préparation au Monde Professionnel**
+   - Exposition aux méthodologies de développement
+   - Utilisation d'outils et technologies modernes
+   - Gestion de la complexité des systèmes informatiques
+
 ## 📋 Description
 
 Cette application permet de créer, visualiser, modifier et analyser des automates finis. Elle offre une interface graphique intuitive pour effectuer diverses opérations sur les automates, telles que la déterminisation, la minimisation, et la vérification de propriétés.
@@ -141,10 +181,10 @@ Pour ajouter de nouvelles fonctionnalités :
 4. Mettre à jour l'interface utilisateur
 
 
-## 👥 Réalisateurs
--REDOUNE HAKIM
--ECHALH MANAL
--MOUHIBI ASSIA
--CHIGUER OTHMANE
+## 👥 Réalisé par
+- REDOUNE HAKIM
+- ECHALH MANAL
+- MOUHIBI ASSIA
+- CHIGUER OTHMANE
 
 
