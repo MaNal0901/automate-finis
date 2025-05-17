@@ -1,0 +1,22 @@
+{
+    "nom": "machine_Minimized",
+    "etats": [
+        {
+            "nom": "P0",
+            "est_initial": false,
+            "est_final": false
+        }
+    ],
+    "alphabet": {
+        "symboles": [
+            "a,b"
+        ]
+    },
+    "transitions": [
+        {
+            "etat_depart": "P0",
+            "symbole": "a,b",
+            "etat_arrive": "P0"
+        }
+    ]
+}

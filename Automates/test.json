@@ -1,0 +1,28 @@
+{
+    "nom": "test",
+    "etats": [
+        {
+            "nom": "activer",
+            "est_initial": true,
+            "est_final": false
+        },
+        {
+            "nom": "terminer",
+            "est_initial": false,
+            "est_final": true
+        }
+    ],
+    "alphabet": {
+        "symboles": [
+            "a",
+            "b"
+        ]
+    },
+    "transitions": [
+        {
+            "etat_depart": "activer",
+            "symbole": "a",
+            "etat_arrive": "terminer"
+        }
+    ]
+}

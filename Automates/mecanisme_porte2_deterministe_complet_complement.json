@@ -1,0 +1,58 @@
+{
+    "nom": "mecanisme_porte2_deterministe_complet_complement",
+    "etats": [
+        {
+            "nom": "1",
+            "est_initial": true,
+            "est_final": true
+        },
+        {
+            "nom": "2_3",
+            "est_initial": false,
+            "est_final": false
+        },
+        {
+            "nom": "puits",
+            "est_initial": false,
+            "est_final": true
+        }
+    ],
+    "alphabet": {
+        "symboles": [
+            "a",
+            "b"
+        ]
+    },
+    "transitions": [
+        {
+            "etat_depart": "1",
+            "symbole": "a",
+            "etat_arrive": "2_3"
+        },
+        {
+            "etat_depart": "1",
+            "symbole": "b",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "2_3",
+            "symbole": "a",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "2_3",
+            "symbole": "b",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "puits",
+            "symbole": "a",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "puits",
+            "symbole": "b",
+            "etat_arrive": "puits"
+        }
+    ]
+}

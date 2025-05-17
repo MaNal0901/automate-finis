@@ -1,0 +1,103 @@
+{
+    "nom": "testequivalence2_union_testequivalence1",
+    "etats": [
+        {
+            "nom": "A1_1",
+            "est_initial": true,
+            "est_final": true
+        },
+        {
+            "nom": "A1_2",
+            "est_initial": false,
+            "est_final": false
+        },
+        {
+            "nom": "A1_3",
+            "est_initial": false,
+            "est_final": false
+        },
+        {
+            "nom": "A1_4",
+            "est_initial": false,
+            "est_final": false
+        },
+        {
+            "nom": "A2_1",
+            "est_initial": true,
+            "est_final": true
+        },
+        {
+            "nom": "A2_2",
+            "est_initial": false,
+            "est_final": false
+        }
+    ],
+    "alphabet": {
+        "symboles": [
+            "a",
+            "b"
+        ]
+    },
+    "transitions": [
+        {
+            "etat_depart": "A1_1",
+            "symbole": "a",
+            "etat_arrive": "A1_2"
+        },
+        {
+            "etat_depart": "A1_1",
+            "symbole": "b",
+            "etat_arrive": "A1_3"
+        },
+        {
+            "etat_depart": "A1_2",
+            "symbole": "a",
+            "etat_arrive": "A1_1"
+        },
+        {
+            "etat_depart": "A1_2",
+            "symbole": "b",
+            "etat_arrive": "A1_4"
+        },
+        {
+            "etat_depart": "A1_3",
+            "symbole": "a",
+            "etat_arrive": "A1_4"
+        },
+        {
+            "etat_depart": "A1_3",
+            "symbole": "b",
+            "etat_arrive": "A1_1"
+        },
+        {
+            "etat_depart": "A1_4",
+            "symbole": "a",
+            "etat_arrive": "A1_3"
+        },
+        {
+            "etat_depart": "A1_4",
+            "symbole": "b",
+            "etat_arrive": "A1_2"
+        },
+        {
+            "etat_depart": "A2_1",
+            "symbole": "a",
+            "etat_arrive": "A2_2"
+        },
+        {
+            "etat_depart": "A2_1",
+            "symbole": "b",
+            "etat_arrive": "A2_1"
+        },
+        {
+            "etat_depart": "A2_2",
+            "symbole": "a",
+            "etat_arrive": "A2_1"
+        },
+        {
+            "etat_depart": "A2_2",
+            "symbole": "b",
+            "etat_arrive": "A2_2"
+        }
+    ]
+}

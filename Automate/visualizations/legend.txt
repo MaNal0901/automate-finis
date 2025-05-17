@@ -1,0 +1,5 @@
+Jaune : État Initial
+
+Vert : État Final
+
+Bleu Clair : État ordinaire

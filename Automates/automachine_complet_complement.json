@@ -1,0 +1,58 @@
+{
+    "nom": "automachine_complet_complement",
+    "etats": [
+        {
+            "nom": "E1",
+            "est_initial": true,
+            "est_final": true
+        },
+        {
+            "nom": "E2",
+            "est_initial": false,
+            "est_final": false
+        },
+        {
+            "nom": "puits",
+            "est_initial": false,
+            "est_final": true
+        }
+    ],
+    "alphabet": {
+        "symboles": [
+            "a",
+            "b"
+        ]
+    },
+    "transitions": [
+        {
+            "etat_depart": "E1",
+            "symbole": "a",
+            "etat_arrive": "E2"
+        },
+        {
+            "etat_depart": "E1",
+            "symbole": "b",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "E2",
+            "symbole": "a",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "E2",
+            "symbole": "b",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "puits",
+            "symbole": "a",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "puits",
+            "symbole": "b",
+            "etat_arrive": "puits"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "nom": "othmane1_complet_minimal",
+    "etats": [
+        {
+            "nom": "1",
+            "est_initial": true,
+            "est_final": false
+        },
+        {
+            "nom": "2",
+            "est_initial": false,
+            "est_final": false
+        },
+        {
+            "nom": "3",
+            "est_initial": false,
+            "est_final": true
+        },
+        {
+            "nom": "puits",
+            "est_initial": false,
+            "est_final": false
+        }
+    ],
+    "alphabet": {
+        "symboles": [
+            "a",
+            "b",
+            "c"
+        ]
+    },
+    "transitions": [
+        {
+            "etat_depart": "1",
+            "symbole": "a",
+            "etat_arrive": "2"
+        },
+        {
+            "etat_depart": "2",
+            "symbole": "b",
+            "etat_arrive": "3"
+        },
+        {
+            "etat_depart": "3",
+            "symbole": "c",
+            "etat_arrive": "2"
+        },
+        {
+            "etat_depart": "1",
+            "symbole": "b",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "1",
+            "symbole": "c",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "2",
+            "symbole": "a",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "2",
+            "symbole": "c",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "3",
+            "symbole": "a",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "3",
+            "symbole": "b",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "puits",
+            "symbole": "a",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "puits",
+            "symbole": "b",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "puits",
+            "symbole": "c",
+            "etat_arrive": "puits"
+        }
+    ]
+}

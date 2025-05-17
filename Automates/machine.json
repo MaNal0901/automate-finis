@@ -1,0 +1,16 @@
+{
+    "nom": "machine",
+    "etats": [
+        {
+            "nom": "activer,terminer",
+            "est_initial": false,
+            "est_final": false
+        }
+    ],
+    "alphabet": {
+        "symboles": [
+            "a,b"
+        ]
+    },
+    "transitions": []
+}

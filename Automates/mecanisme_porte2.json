@@ -1,0 +1,38 @@
+{
+    "nom": "mecanisme_porte2",
+    "etats": [
+        {
+            "nom": "1",
+            "est_initial": true,
+            "est_final": false
+        },
+        {
+            "nom": "2",
+            "est_initial": false,
+            "est_final": true
+        },
+        {
+            "nom": "3",
+            "est_initial": false,
+            "est_final": true
+        }
+    ],
+    "alphabet": {
+        "symboles": [
+            "a",
+            "b"
+        ]
+    },
+    "transitions": [
+        {
+            "etat_depart": "1",
+            "symbole": "a",
+            "etat_arrive": "2"
+        },
+        {
+            "etat_depart": "1",
+            "symbole": "a",
+            "etat_arrive": "3"
+        }
+    ]
+}

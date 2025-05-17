@@ -1,0 +1,28 @@
+{
+    "nom": "automachine",
+    "etats": [
+        {
+            "nom": "E1",
+            "est_initial": true,
+            "est_final": false
+        },
+        {
+            "nom": "E2",
+            "est_initial": false,
+            "est_final": true
+        }
+    ],
+    "alphabet": {
+        "symboles": [
+            "a",
+            "b"
+        ]
+    },
+    "transitions": [
+        {
+            "etat_depart": "E1",
+            "symbole": "a",
+            "etat_arrive": "E2"
+        }
+    ]
+}

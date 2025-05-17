@@ -1,0 +1,28 @@
+{
+    "nom": "mecanisme_porte3_deterministe",
+    "etats": [
+        {
+            "nom": "1",
+            "est_initial": true,
+            "est_final": false
+        },
+        {
+            "nom": "2_3",
+            "est_initial": false,
+            "est_final": true
+        }
+    ],
+    "alphabet": {
+        "symboles": [
+            "a",
+            "b"
+        ]
+    },
+    "transitions": [
+        {
+            "etat_depart": "1",
+            "symbole": "a",
+            "etat_arrive": "2_3"
+        }
+    ]
+}

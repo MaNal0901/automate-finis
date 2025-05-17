@@ -1,0 +1,119 @@
+{
+    "nom": "mecanisme_porte_complet_minimal",
+    "etats": [
+        {
+            "nom": "q0",
+            "est_initial": true,
+            "est_final": false
+        },
+        {
+            "nom": "q1",
+            "est_initial": false,
+            "est_final": true
+        },
+        {
+            "nom": "q2",
+            "est_initial": false,
+            "est_final": true
+        },
+        {
+            "nom": "q3",
+            "est_initial": false,
+            "est_final": false
+        },
+        {
+            "nom": "puits",
+            "est_initial": false,
+            "est_final": false
+        }
+    ],
+    "alphabet": {
+        "symboles": [
+            "a",
+            "b",
+            "c"
+        ]
+    },
+    "transitions": [
+        {
+            "etat_depart": "q0",
+            "symbole": "b",
+            "etat_arrive": "q1"
+        },
+        {
+            "etat_depart": "q0",
+            "symbole": "b",
+            "etat_arrive": "q3"
+        },
+        {
+            "etat_depart": "q0",
+            "symbole": "a",
+            "etat_arrive": "q2"
+        },
+        {
+            "etat_depart": "q0",
+            "symbole": "c",
+            "etat_arrive": "q0"
+        },
+        {
+            "etat_depart": "q1",
+            "symbole": "c",
+            "etat_arrive": "q1"
+        },
+        {
+            "etat_depart": "q1",
+            "symbole": "a",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "q1",
+            "symbole": "b",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "q2",
+            "symbole": "a",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "q2",
+            "symbole": "b",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "q2",
+            "symbole": "c",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "q3",
+            "symbole": "a",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "q3",
+            "symbole": "b",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "q3",
+            "symbole": "c",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "puits",
+            "symbole": "a",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "puits",
+            "symbole": "b",
+            "etat_arrive": "puits"
+        },
+        {
+            "etat_depart": "puits",
+            "symbole": "c",
+            "etat_arrive": "puits"
+        }
+    ]
+}
