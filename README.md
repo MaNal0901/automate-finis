@@ -182,7 +182,7 @@ Pour ajouter de nouvelles fonctionnalités :
 
 
 ## 👥 Réalisé par
-- REDOUNE HAKIM
+- REDOUANE HAKIM
 - ECHALH MANAL
 - MOUHIBI ASSIA
 - CHIGUER OTHMANE
